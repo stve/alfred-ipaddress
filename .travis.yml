@@ -8,3 +8,6 @@ sudo: false
 
 cache:
   yarn: true
+  directories:
+    - $HOME/.npm
+    - $HOME/.cache
