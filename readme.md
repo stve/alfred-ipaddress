@@ -1,4 +1,4 @@
-# alfred-ipaddress [![Build Status](https://travis-ci.org/stve/alfred-ipaddress.svg?branch=master)](https://travis-ci.org/stve/alfred-ipaddress)
+# alfred-ipaddress
 
 > [Alfred 3](https://www.alfredapp.com) workflow to display internal/external IP addresses
 
