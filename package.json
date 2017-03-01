@@ -1,0 +1,36 @@
+{
+  "name": "alfred-ipaddress",
+  "version": "1.0.0",
+  "description": "Alfred 3 workflow to display internal/external IP addresses",
+  "license": "MIT",
+  "repository": "https://github.com/stve/alfred-ipaddress",
+  "author": "Steve Agalloco",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "alfy"
+  ],
+  "dependencies": {
+    "alfy": "^0.6.0",
+    "bluebird": "^3.4.7"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.3.0",
+    "ava": "^0.18.0",
+    "xo": "^0.17.0"
+  },
+  "main": "index.js"
+}
